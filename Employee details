@@ -1,0 +1,38 @@
+class Employee
+{
+  String Name;
+  int Year;
+  String Address;
+  Main(String nam,int years, String addr)
+  {
+    Name=nam;
+    Year=years; 
+    Address=addr;
+  }
+  void raj()
+  {
+    System.out.println(Name+ "        " +Year + "         "     +Address);                                          
+  }
+  void shay()
+  {
+    System.out.println(Name+ "     " +Year + "            "     +Address);                                          
+  }
+  void anu()
+  {
+    System.out.println(Name+ "    "+Year + "       "     +Address);                                          
+  }
+}
+class EmployeeDetails
+{
+  public static void main(String args[])
+  {
+    System.out.println("Name" +   "  Year of Joining     " + "Address" );
+    Employee emp=new Employee("vyshu", 2000, "68D-RRStreet");
+    emp.vyshu();
+    Employee emp1=new Employee("vicky", 1994, "60C-RRStreet");
+    emp1.vicky();
+    Employee emp2=new Employee("praju", 2002, "80F-RRStreet");
+    emp2.praju()
+  }
+
+}
